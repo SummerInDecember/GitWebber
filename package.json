@@ -1,0 +1,28 @@
+{
+  "name": "gitwebber",
+  "version": "1.0.0",
+  "description": "A browser for \"websites\" in github, gitlab, etc...",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SummerInDecember/GitWebber.git"
+  },
+  "keywords": [
+    "js",
+    "electron",
+    "browser"
+  ],
+  "author": "SummerInDecember",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SummerInDecember/GitWebber/issues"
+  },
+  "homepage": "https://github.com/SummerInDecember/GitWebber#readme",
+  "devDependencies": {
+    "electron": "^33.2.0"
+  }
+}

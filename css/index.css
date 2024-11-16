@@ -1,0 +1,16 @@
+.topBar{
+    display: grid;
+    grid-template-columns: 2em 2em auto;
+    grid-template-rows: 1.8em;
+    gap: 1em;
+}
+
+#goBack:hover{
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+#goForth:hover{
+    border: 1px solid black;
+    border-radius: 10%;
+}
