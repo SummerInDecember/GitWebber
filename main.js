@@ -25,6 +25,9 @@ app.whenReady().then(() => {
   })
 })
 
+app.on('window-all-closed', function () {
+  if (process.platform !== 'darwin') app.quit()
+})
 function isGitInstalled()
 {
   require('child_process').exec('git --version', (error, stdout, stderr) => {
