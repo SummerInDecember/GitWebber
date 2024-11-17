@@ -1,3 +1,6 @@
+body{
+    height: 100%;
+}
 .topBar{
     display: grid;
     grid-template-columns: 2em 2em auto;
@@ -5,6 +8,10 @@
     gap: 1em;
 }
 
+.framed{
+    width: 100%;
+    height: 100vh;
+}
 #goBack:hover{
     border: 1px solid black;
     border-radius: 10%;
